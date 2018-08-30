@@ -36,8 +36,6 @@ namespace UsingOnlyCountFindMail.Controllers
                 foreach (var d in _listDomains)
                 {
                     var split = d.Mail.Split('@');
-
-                    //Se não tem arroba não é email, logo não há motivos para maiores validações
                     if (split == null)
                     {
                         //Ainda usando o Count
