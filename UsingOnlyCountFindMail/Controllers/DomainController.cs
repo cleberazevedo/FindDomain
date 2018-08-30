@@ -30,7 +30,6 @@ namespace UsingOnlyCountFindMail.Controllers
                     var split = d.Mail.Split('@');
                     if (split == null)
                     {
-                        //Ainda usando o Count
                         if (d.Mail.Equals(constante))
                         {
                             result.Mail = d.Mail;
